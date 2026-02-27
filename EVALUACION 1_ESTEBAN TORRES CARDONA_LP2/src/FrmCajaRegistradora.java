@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
 
 public class FrmCajaRegistradora extends JFrame {
 
-    // variables globales
+    // variables glob.
     private int[] denominaciones = {20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50};
     private int[] existencia = new int[denominaciones.length];
 
@@ -19,7 +19,7 @@ public class FrmCajaRegistradora extends JFrame {
     private JTextField txtValor;
     private JTable tblResultado;
 
-    // método constructor
+    // met. constructor
     public FrmCajaRegistradora() {
 
         setTitle("Caja Registradora");
@@ -112,7 +112,7 @@ public class FrmCajaRegistradora extends JFrame {
             return;
         }
 
-        // Construcción del mensaje solicitado
+        // construccion mensaje solicitado
         String mensaje = "La devuelta se compone de:\n\n";
 
         for (int i = 0; i < denominaciones.length; i++) {
